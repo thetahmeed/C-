@@ -1,4 +1,4 @@
-// Binary Search (With search position and Counter)
+// Linear Search (With search position and Counter)
 
 #include <iostream>
 using namespace std;
