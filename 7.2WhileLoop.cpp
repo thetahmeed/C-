@@ -1,19 +1,27 @@
+// Sum of positive input numbers using WHILE loop
+
 #include <iostream>
 using namespace std;
 
 int main() {
-    int number;
-    int sum = 0;
+    int limit, i = 0, sum = 0, userInput;
 
-    cout << "Enter a number: ";
-    cin >> number;
+    cout << "Enter input limit: ";
+    cin >> limit;
 
-    while (number >= 0) {
-        sum += number;
-        cout << "Enter a number: ";
-        cin >> number;
+    while (i < limit) {
+        cout << "\nEnter any number: ";
+        cin >> userInput;
+        
+        if(userInput > 0){
+            sum = sum + userInput;
+        }
+        
+       i++;
     }
-    cout << "\nThe sum is " << sum << endl;
+    
+    
+    cout << "\nThe sum of positive input is: " << sum << endl;
     
     return 0;
 }
