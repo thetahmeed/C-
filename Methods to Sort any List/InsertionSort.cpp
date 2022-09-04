@@ -29,9 +29,6 @@ void insertionSort(int arr[], int n)
 	}
 }
 
-
-
-
 int main()
 {
 	int arr[] = {4, 5, 3, 9, 2, 6, 1, 10, 8, 7};
