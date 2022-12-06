@@ -24,7 +24,7 @@ void insertionSort(int arr[], int n)
 		}
 		arr[j + 1] = t;
 
-        cout << "Step " << i << " : ";
+        //cout << "Step " << i << " : ";
         printArray(arr, n);
 	}
 }
